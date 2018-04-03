@@ -26,11 +26,12 @@ print(fruits_e)
 
 # Use the `gsub()` function to substitute all the "a"s in `fruits` with "o".
 # Store the result in a variable called `fruits_o`
-
+fruits_o <- gsub("a", "o", lyric)
+print(fruits_o)
 
 # Create a new variable `lyric_e` that is the `intro` combined with the new
 # `fruits_e` ending. Print out this variable
-
+lyric_e <-paste(intro)
 
 # Without making a new variable, print out the `intro` combined with the new
 # `fruits_o` ending
