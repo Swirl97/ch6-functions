@@ -31,8 +31,10 @@ print(fruits_o)
 
 # Create a new variable `lyric_e` that is the `intro` combined with the new
 # `fruits_e` ending. Print out this variable
-lyric_e <-paste(intro)
+lyric_e <-print(paste(intro, fruits_e))
+print(lyric_e)
 
 # Without making a new variable, print out the `intro` combined with the new
 # `fruits_o` ending
-
+lyric_o <-print(paste(intro, fruits_o))
+print(lyric_o)
