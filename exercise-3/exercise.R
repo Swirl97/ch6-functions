@@ -9,12 +9,17 @@ add_three <- function(value) {
 
 # Create a variable `ten` that is the result of passing 7 to your `add_three` 
 # function
-
+ten <- add_three(7)
+print(ten)
 
 # Define a function `imperial_to_metric` that takes in two arguments: a number 
 # of feet and a number of inches
 # The function should return the equivalent length in meters
-
+imperial_to_metric <- function(feet, inches){
+  final_feet <- feet*12
+  height <- final_feet + inches
+  metric_height <- height/2.54
+}
 
 # Create a variable `height_in_meters` by passing your height in imperial to the
 # `imperial_to_metric` function
